@@ -1,0 +1,7 @@
+{
+    "model_class": "MLP",
+    "input_dim": 784,
+    "output_dim": 10,
+    "num_params": 669706,
+    "timestamp": "2025-05-24T17:34:57.873079"
+}

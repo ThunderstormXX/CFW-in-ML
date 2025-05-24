@@ -1,0 +1,11 @@
+[project]
+name = "cfw-in-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "numpy>=1.26.4",
+    "torch>=2.3.1",
+]
