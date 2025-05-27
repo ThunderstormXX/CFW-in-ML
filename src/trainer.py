@@ -120,3 +120,6 @@ class Trainer:
         accuracy = 100. * correct / len(self.test_loader.dataset)
         print(f"{description}: Test Loss = {test_loss:.4f}, Accuracy = {accuracy:.2f}%")
         return test_loss, accuracy
+    
+    def get_train_loader(self,):
+        return self.train_loader
